@@ -19,9 +19,120 @@
 .sectionTitle {
 	float: left;
 	width: 25%;
+  color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	margin-right: 10px;
+	
 }
+
+body{
+	background-color: #f3f3f3;
+	color: #181818;
+}
+
+#cv{
+	
+	width: 70%;
+	height: 1100px;
+}
+
+img{
+	border-radius: 100%;
+}
+
+section{
+
+ margin-right: 0px;
+ margin-left: 50px;
+	width: 80%;
+	border-top: solid #dedede 1px;
+	position: relative;
+}
+
+#mainArea{
+	border-top: #cf8a05 solid 2px;
+	height: 65%;
+	padding-left: 0px;
+	margin-left: 350px;
+	width: 75%;
+	padding-left: 30px;
+}
+
+.subDetails{
+	margin:0;
+	margin-left: 5px;
+}
+
+article h2{
+	margin: 0px 0px 0px 10px;
+	padding-left: 25px;
+	padding-top: 5px;
+}
+
+article{
+
+	margin: 5px 0px 1px 0px;
+}
+
+.sectionTitle h1{
+	width: 200px;
+	margin: 10px 10px 10px 0px;
+	padding-right: 10px;
+	color: #cf8a05;
+}
+
+ .keySkills{ 
+	 list-style: none;
+	marker: unset;
+	column-count: 3;
+ padding-left: 40px;
+
+}
+
+p+p, div>p{
+	width: 95%;
+	padding-bottom: 10px;
+	padding: 0px 10px 1px 35px;
+
+}
+
+h1, h2{
+	color: #444444;
+	font-family:'Arial', 'Helvetica', sans-serif;
+}
+
+article p:not(p+p){
+	padding: 1px 0px 1px 30px;
+	margin: 4px 10px 25px 10px;
+}
+
+.mainDetails{
+ padding-left: 420px;	
+ padding-top: 20px;
+margin: 0px 0px 20px 0px;
+}
+
+#name{
+ margin: 0px 0px 0px 40px;
+
+}
+ #contactDetails{
+	 margin: 10px 15px 0px 0px;
+ }
+
+ html, body, #cv{
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  
+ }
+
+ #contactDetails{
+	 color: #181818;
+ }
+ .subDetails{
+	 color: #181818;
+ }
+ 
