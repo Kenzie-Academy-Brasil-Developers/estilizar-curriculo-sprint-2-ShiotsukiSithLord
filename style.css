@@ -10,23 +10,28 @@
 
 #name {
 	float: left;
+	font-size: 25px;
+    margin: 0px 0px 0px 40px
 }
 
 #contactDetails {
 	float: right;
+	padding-left: 10px;
+    margin: 10px 0px 0px 10px;
 }
 
 .sectionTitle {
 	font-style: italic;
-	float: left;
-	width: 25%;
-  color: #cf8a05;
+    float: left;
+    width: 20%;
+    color: #cf8a05;
+    padding: 5px;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
-	margin-right: 0px;
+    width: 69%;
+    margin-right: 50px;
 	
 }
 
@@ -50,26 +55,27 @@ img{
 }
 
 section{
-
- margin-right: 0px;
- margin-left: 50px;
-	width: 80%;
-	border-top: solid #dedede 1px;
-	position: relative;
+	margin-right: 0px;
+    margin-left: 40px;
+    border-top: solid #dedede 1px;
+    position: relative;
+    padding: 0px 0px;
 }
 
 #mainArea{
 	border-top: #cf8a05 solid 2px;
-	height: 65%;
-	padding-left: 0px;
-	margin-left: 350px;
-	width: 75%;
-	padding-left: 30px;
+    height: 65%;
+    padding-left: 0px;
+    margin-left: 25%;
+    width: 73%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .subDetails{
-	margin:0;
-	margin-left: 5px;
+    margin: 0;
+    margin-left: 5px;
+	color: #181818;
 }
 
 article h2{
@@ -84,12 +90,11 @@ article{
 }
 
 .sectionTitle h1{
-	font-style: italic;
-	font-size: 23px;
-	width: 200px;
-	margin: 10px 10px 10px 0px;
-	padding-right: 10px;
-	color: #cf8a05;
+    font-style: italic;
+    font-size: 27px;
+    width: 200px;
+    margin: 5px 0px 10px 0px;
+    color: #cf8a05;
 }
 
  .keySkills{ 
@@ -101,39 +106,36 @@ article{
 }
 
 p+p, div>p{
-	width: 95%;
-	padding-bottom: 10px;
-	padding: 0px 10px 1px 35px;
+    width: 95%;
+    padding-bottom: 10px;
+    padding: 0px 10px 1px 35px;
 
 }
 
 h1, h2{
 	color: #444444;
-	font-family:'Arial', 'Helvetica', sans-serif;
+	font-family:'Rokkitt', 'Arial', 'Helvetica', sans-serif;
 }
 
 article p:not(p+p){
 	padding: 1px 0px 1px 30px;
-	margin: 4px 10px 25px 10px;
+	margin-top: 10px;
 }
 
 .mainDetails{
- padding-left: 420px;	
- padding-top: 20px;
-margin: 0px 0px 20px 0px;
+	padding-left: 340px;
+    padding-top: 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 .mainDetails h1{
-	margin-bottom: 10px;
+	margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#name{
- margin: 0px 0px 0px 40px;
-
+.mainDetails h2{
+    margin: 0px;
 }
- #contactDetails{
-	 margin: 10px 15px 0px 0px;
- }
 
  #contactDetails ul{
 	 list-style: none;
@@ -143,6 +145,7 @@ margin: 0px 0px 20px 0px;
 
  #contactDetails a{
 	color: #181818;
+
  }
 
  html, body, #cv{
@@ -153,7 +156,5 @@ margin: 0px 0px 20px 0px;
  #contactDetails{
 	 color: #181818;
  }
- .subDetails{
-	 color: #181818;
- }
+ 
  
