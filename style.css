@@ -17,6 +17,7 @@
 }
 
 .sectionTitle {
+	font-style: italic;
 	float: left;
 	width: 25%;
   color: #cf8a05;
@@ -25,8 +26,12 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
-	margin-right: 10px;
+	margin-right: 0px;
 	
+}
+
+ h2{
+	font-style: italic;
 }
 
 body{
@@ -79,6 +84,8 @@ article{
 }
 
 .sectionTitle h1{
+	font-style: italic;
+	font-size: 23px;
 	width: 200px;
 	margin: 10px 10px 10px 0px;
 	padding-right: 10px;
@@ -116,12 +123,26 @@ article p:not(p+p){
 margin: 0px 0px 20px 0px;
 }
 
+.mainDetails h1{
+	margin-bottom: 10px;
+}
+
 #name{
  margin: 0px 0px 0px 40px;
 
 }
  #contactDetails{
 	 margin: 10px 15px 0px 0px;
+ }
+
+ #contactDetails ul{
+	 list-style: none;
+	 pointer-events: none;
+
+ }
+
+ #contactDetails a{
+	color: #181818;
  }
 
  html, body, #cv{
